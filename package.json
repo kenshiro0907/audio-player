@@ -1,0 +1,22 @@
+{
+  "name": "audio-player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "live-server",
+    "lint:watch": "nodemon --exec eslint . --ext js,html,css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.5.0",
+    "eslint": "^9.5.0",
+    "globals": "^15.6.0",
+    "live-server": "^1.2.2",
+    "nodemon": "^3.1.4"
+  }
+}
